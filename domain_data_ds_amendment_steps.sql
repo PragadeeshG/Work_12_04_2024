@@ -1,0 +1,16 @@
+create table if not exists domain_data_ds_amendment_steps(
+cr_id integer not null,
+params_of_cr varchar(255) null,
+cr_status varchar(255) null,
+cr_approved varchar(255) null,
+pending_on varchar(255) null,
+grp_name varchar(255) null,
+grp_category varchar(255) null,
+start_action varchar(255) null,
+end_action varchar(255) null,
+start_time varchar(255) null,
+end_time varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint domain_data_ds_amendment_steps_pk primary key(cr_id));
